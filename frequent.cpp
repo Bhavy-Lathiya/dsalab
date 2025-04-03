@@ -1,3 +1,5 @@
+class Solution {
+public:
 vector<int> topKFrequent(vector<int>& nums, int k) {
     unordered_map<int, int> freqMap;
 
@@ -25,3 +27,4 @@ vector<int> topKFrequent(vector<int>& nums, int k) {
 
     return result;
 }
+};
