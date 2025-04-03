@@ -1,3 +1,5 @@
+class Solution {
+public:
 bool isValidSudoku(vector<vector<char>>& board) {
     unordered_set<char> rowSet[9], colSet[9], boxSet[9];
 
@@ -18,3 +20,4 @@ bool isValidSudoku(vector<vector<char>>& board) {
     }
     return true;
 }
+};
